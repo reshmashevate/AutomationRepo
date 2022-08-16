@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.ExampleITransform"/>
+        <listener class-name="testng.ExampleITestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="2" name="C:/Users/Sagar/IdeaProjects/ReshmaShevateM">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+        <class name="testng.GeneratorExtentReports"/>
+        </classes>
+    </test>
+</suite>
