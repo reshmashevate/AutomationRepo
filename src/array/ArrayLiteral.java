@@ -9,7 +9,7 @@ public class ArrayLiteral {
         System.out.println(a.length);
 
         for(int array : a){
-            System.out.println(array);
+            System.out.println(array)
         }
     }
 }
