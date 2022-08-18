@@ -16,7 +16,7 @@ public class ExampleHashtable {
         map.put(8,"Reshma");
 
 //        System.out.println(map.get(2));
-        System.out.println(map.put(2, "Partner"));
+        System.out.println(map.put(2, "Partner"))
 
         for(Map.Entry<Integer,String> e : map.entrySet()){
             System.out.println(e.getKey() + " " + e.getValue());
